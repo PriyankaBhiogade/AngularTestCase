@@ -1,0 +1,140 @@
+
+mat-toolbar{
+  z-index: 9;
+  position: fixed;
+}
+.searchbar{
+    background-color:rgb(235, 233, 233);
+        width:680px;
+        min-height: 50px;
+        border-bottom-left-radius: 11px;
+        border-bottom-right-radius: 11px;
+        border-top-left-radius: 11px;
+        border-top-right-radius: 11px;
+       
+       
+}
+.input{
+    background-color:rgba(49, 119, 74, 0);;
+    width:88%;
+   
+    height: 43px;
+    border:none !important
+}
+input.input:focus{
+    outline-width: 0;
+    
+}
+.appbar{
+
+  top: 0;
+  height: 64px;
+}
+  .sidenav{
+     background-color:white;
+  }
+  .divider{
+      color: black;
+
+  }
+  .color{
+    
+    padding-left: -3px;
+    display: inline-block;
+    line-height: 47px;
+    vertical-align: top;
+     width: 277px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: inherit;
+    background-clip: padding-box;
+}
+.mat-raised-button:not([class*=mat-elevation-z]) {
+  box-shadow: 0 3px 1px -2px rgb(255, 253, 253), 0 2px 2px 0 rgb(255, 253, 253), 0 1px 5px 0 rgb(255, 253, 253);
+}
+  .lable{
+    color: #5f6368;
+    cursor: default;
+    letter-spacing: .07272727em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: .6875rem;
+    font-weight: 500;
+    line-height: 1rem;
+    text-transform: uppercase;
+    padding: 15px 24px 10px;
+  }
+   .img{
+    height: 24px;
+    width: 24px;
+    float: left;
+    margin-top: 8px;
+    vertical-align: middle;
+   }
+   .mat-raised-button:hover {
+    background-color: rgb(233, 227, 227);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 25px;
+   
+}
+    
+.mat-raised-button:focus {
+  background-color: bisque;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 25px;
+  
+ 
+} 
+   .sgg{
+  
+     height: 100%;
+     min-height: 100%;
+     min-width: 100%;
+     width: 100%;
+     margin-left: 111px;
+   }
+   .img1{
+     background-color: black
+  
+  } 
+  .img2{
+        background-color: paleturquoise;
+        border-radius: 50%
+  }
+  .menu{
+        width: 113%;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        max-height: calc(100vh - 48px);
+        border-radius: 4px;
+        outline: 0;
+    }
+ 
+    .fileSelect{
+      display: none;
+  }
+  .content {
+
+    background-color: white;
+    // overflow-y: scroll;
+        overflow-x: hidden;
+      
+}
+// ::ng-deep.mat-list-base {
+//   z-index: 1;
+//   position: fixed;
+// }
+.example-viewport {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.example-item {
+  height: 50px;
+}
+
